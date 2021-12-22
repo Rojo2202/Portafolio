@@ -13,13 +13,15 @@ body {
 }
 
 /* navbar */
-
+#logo {
+    color: var(--colorPrincipal);
+}
 nav{
     font-family: var(--fuente);
 
 }
-#navegacion a:active {
-    color: var(--colorPrincipal);
+.navbar-toggler-icon {
+    border: none;
 }
 #navegacion a:hover {
     color: var(--colorPrincipal);
@@ -29,6 +31,9 @@ nav{
 
 .inicio {
     gap: 1rem;
+    width: 100vw;
+    height: 100vh;
+
 }
 
 .inicio h3 {
@@ -41,6 +46,7 @@ nav{
     justify-content: center;
     text-align: center;
 }
+
 .images {
     height: auto;
     max-width: 100%;
