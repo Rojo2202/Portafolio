@@ -46,7 +46,13 @@ nav{
     justify-content: center;
     text-align: center;
 }
-
+.inicio__contenido a i{
+    font-size: 200%;
+    color: var(--colorPrincipal);
+}
+.inicio__contenido a i:hover{
+    color:rgba(0,0,0,1);
+}
 .images {
     height: auto;
     max-width: 100%;
