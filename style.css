@@ -29,12 +29,10 @@ nav{
 
 /* Inicio */
 
-.inicio {
-    gap: 1rem;
+/* .inicio {
     width: 100vw;
     height: 100vh;
-
-}
+} */
 
 .inicio h3 {
     font-weight: 300;
@@ -46,15 +44,30 @@ nav{
     justify-content: center;
     text-align: center;
 }
-.inicio__contenido a i{
-    font-size: 200%;
-    color: var(--colorPrincipal);
+
+.inicio__contenido button {
+    background: var(--colorPrincipal);
+    border-color: var(--colorPrincipal);
+    color: white;
 }
-.inicio__contenido a i:hover{
-    color:rgba(0,0,0,1);
+.inicio__contenido button:hover {
+    background-color: rgba(0,0,0,1);
+
 }
 .images {
     height: auto;
     max-width: 100%;
 }
 
+/* Portafolio */
+.portfolio {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+/* Contacto */
+.contacto {
+    text-align: center;
+}
